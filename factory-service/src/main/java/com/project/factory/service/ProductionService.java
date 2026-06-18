@@ -1,5 +1,7 @@
 package com.project.factory.service;
 
+import module factory.domain;
+
 public class ProductionService {
 
     public void execute() {
