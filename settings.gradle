@@ -2,3 +2,4 @@ rootProject.name = 'poc-own-module-factory'
 
 include 'factory-domain'
 include 'factory-domain'
+include 'factory-service'
