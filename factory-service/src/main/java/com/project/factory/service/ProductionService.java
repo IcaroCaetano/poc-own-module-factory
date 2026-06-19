@@ -11,10 +11,7 @@ public class ProductionService {
                 "Notebook"
         );
 
-        var order = new ProductionOrder(
-                product,
-                50
-        );
+        var order = new ProductionOrder(product, 50);
 
         System.out.printf("Produzindo %d unidades de %s%n",
                 order.quantity(), order.product().name()
