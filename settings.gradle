@@ -1,6 +1,5 @@
-rootProject.name = 'poc-own-module-factory'
+rootProject.name = "poc-own-module-factory"
 
 include 'factory-domain'
-include 'factory-domain'
 include 'factory-service'
-include 'factory.app'
+include 'factory-app'

@@ -16,10 +16,8 @@ public class ProductionService {
                 50
         );
 
-        System.out.printf(
-                "Produzindo %d unidades de %s%n",
-                order.quantity(),
-                order.product().name()
+        System.out.printf("Produzindo %d unidades de %s%n",
+                order.quantity(), order.product().name()
         );
     }
 }

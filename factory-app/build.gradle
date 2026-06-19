@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group = 'com.project.factory.service'
+group = 'com.project.factory.app'
 version = '0.0.1-SNAPSHOT'
 
 repositories {
@@ -10,5 +10,5 @@ repositories {
 }
 
 dependencies {
-    implementation project(':factory-domain')
+    implementation project(':factory-service')
 }
