@@ -4,10 +4,22 @@ import module factory.domain;
 
 public class ProductionService {
 
-    public void execute() {
+    public void processOrder() {
 
-        var product = new Product("001", "Notebook");
+        var product = new Product(
+                "PRD-001",
+                "Notebook"
+        );
 
-        System.out.println(product);
+        var order = new ProductionOrder(
+                product,
+                50
+        );
+
+        System.out.printf(
+                "Produzindo %d unidades de %s%n",
+                order.quantity(),
+                order.product().name()
+        );
     }
 }
