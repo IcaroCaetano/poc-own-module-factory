@@ -1,5 +1,9 @@
 # poc-own-module-factory
 
+## Objective 
+
+Build your own modules using JPMS and utilize the new Java-Module-Import-Declarations feature in Java 25.
+
 ## Structure
 
 ````plantuml
