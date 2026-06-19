@@ -1,5 +1,7 @@
 # poc-own-module-factory
 
+## Structure
+
 ````plantuml
 poc-own-module-factory
 
@@ -27,16 +29,16 @@ factory-app
     └── FactoryApplication.java
 ````
 
-## O que é o module-info.java?
+## What is module-info.java?
 
-É um arquivo de configuração que define um módulo Java.
+It's a configuration file that defines a Java module.
 
-Ele descreve:
+### It describes:
 
-o nome do módulo;
-quais pacotes ele expõe (exports);
-de quais outros módulos ele depende (requires);
-quais serviços ele fornece (provides);
-quais serviços ele consome (uses).
+the module's name;
+- which packages it exposes (exports);
+- which other modules it depends on (requires);
+- which services it provides;
+- which services it consumes (uses).
 
-Pense nele como um contrato público do módulo.
+Think of it as a public contract for the module.
