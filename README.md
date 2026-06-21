@@ -60,3 +60,9 @@ Sem JPMS
 Todo mundo entra em qualquer sala
 ```
 
+
+Com JPMS
+
+```
+Cada departamento controla o que expõe
+```
