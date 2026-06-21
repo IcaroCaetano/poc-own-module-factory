@@ -46,3 +46,6 @@ the module's name;
 - which services it consumes (uses).
 
 Think of it as a public contract for the module.
+
+
+JPMS é o sistema de módulos do Java que permite dividir aplicações em partes isoladas com dependências explícitas e controle de visibilidade.
