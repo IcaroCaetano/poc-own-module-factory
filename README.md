@@ -49,3 +49,14 @@ Think of it as a public contract for the module.
 
 
 JPMS é o sistema de módulos do Java que permite dividir aplicações em partes isoladas com dependências explícitas e controle de visibilidade.
+
+#### Analogia simples
+
+Imagine uma empresa:
+
+Sem JPMS
+
+```
+Todo mundo entra em qualquer sala
+```
+
